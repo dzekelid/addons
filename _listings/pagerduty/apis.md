@@ -5,10 +5,10 @@ description: See how PagerDuty Digital Operations Management Platform integrates
   data & human intelligence to improve visibility & agility across organizations.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: "19574"
+x-alexaRank: "18918"
 tags: Addons
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: pagerduty
   description: List all of the add-ons installed on your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons
   tags: AddOns
   properties:
@@ -28,7 +28,7 @@ apis:
   x-api-slug: pagerduty
   description: Install an add-on for your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons
   tags: AddOns
   properties:
@@ -38,7 +38,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an existing add-on.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons/{id}
   tags: AddOns
   properties:
@@ -48,7 +48,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove an existing add-on.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons/{id}
   tags: AddOns
   properties:
@@ -58,7 +58,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an existing add-on.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons/{id}
   tags: AddOns
   properties:
@@ -69,13 +69,15 @@ apis:
   description: See how PagerDuty Digital Operations Management Platform integrates
     machine data & human intelligence to improve visibility & agility across organizations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: Addons
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/openapi.md
 x-common:
+- type: x-website
+  url: http://www.pagerduty.com/
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
@@ -96,8 +98,12 @@ x-common:
   url: support@pagerduty.com
 - type: x-email
   url: legal@pagerduty.com
+- type: x-email
+  url: privacy@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pagerduty
 - type: x-openapi-spec--authoritative
   url: https://api-reference.pagerduty.com/output.json
 - type: x-pricing
