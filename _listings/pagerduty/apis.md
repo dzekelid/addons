@@ -6,62 +6,95 @@ description: See how PagerDuty Digital Operations Management Platform integrates
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
 x-alexaRank: "18918"
-tags: Addons
-created: "2018-06-25"
-modified: "2018-06-25"
+tags: AddOns
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
-- name: PagerDuty List installed add-ons
+- name: PagerDuty
   x-api-slug: pagerduty
-  description: List all of the add-ons installed on your account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
-  baseURL: https://///addons
-  tags: AddOns
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
-- name: PagerDuty Install an add-on
+- name: PagerDuty
   x-api-slug: pagerduty
-  description: Install an add-on for your account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
-  baseURL: https://///addons
-  tags: AddOns
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
-- name: PagerDuty Get an add-on
+- name: PagerDuty
   x-api-slug: pagerduty
-  description: Get details about an existing add-on.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
-  baseURL: https://///addons/{id}
-  tags: AddOns
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-get-openapi.md
-- name: PagerDuty Delete an add-on
+- name: PagerDuty
   x-api-slug: pagerduty
-  description: Remove an existing add-on.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
-  baseURL: https://///addons/{id}
-  tags: AddOns
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-delete-openapi.md
-- name: PagerDuty Update an add-on
+- name: PagerDuty
   x-api-slug: pagerduty
-  description: Update an existing add-on.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
-  baseURL: https://///addons/{id}
-  tags: AddOns
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-put-openapi.md
 - name: PagerDuty
@@ -71,13 +104,17 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
   baseURL: https:///
-  tags: Addons
+  tags: AddOns
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/openapi.md
 x-common:
 - type: x-website
   url: http://www.pagerduty.com/
+- type: x-api-gallery
+  url: http://paccurate.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pagerduty.stack.network
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
