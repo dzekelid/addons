@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku
 x-kinRank: "8"
 x-alexaRank: "6044"
 tags: AddOns
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
+- name: Heroku - Parameters Addons
+  x-api-slug: addons-parameters
+  description: Parameters addons.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
@@ -28,9 +28,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
+- name: Heroku - Get Addons
+  x-api-slug: addons-get
+  description: List all available addons.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
@@ -40,17 +40,13 @@ apis:
     SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
+- name: Heroku - Parameter Application Addons
+  x-api-slug: appsappaddons-parameters
+  description: Parameter application addons.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
@@ -60,21 +56,13 @@ apis:
     SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
+- name: Heroku - Get Application Addons
+  x-api-slug: appsappaddons-get
+  description: List addons installed on an app.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
@@ -84,25 +72,13 @@ apis:
     SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
+- name: Heroku - Add Application Addons
+  x-api-slug: appsappaddonsaddon-post
+  description: Install an addon to an app.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
@@ -112,61 +88,13 @@ apis:
     SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-parameters-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com//
-  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
-    Example, Federal Government, Federal Government, Federal Government, Federal Government,
-    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
-    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
-    Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-post-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
+- name: Heroku - Put Application Addons
+  x-api-slug: appsappaddonsaddon-put
+  description: Upgrade an addon to an app.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
@@ -176,82 +104,10 @@ apis:
     SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-put-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: manage-your-heroku-apps-configs-collaborators--resources
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com//
-  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
-    Example, Federal Government, Federal Government, Federal Government, Federal Government,
-    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
-    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
-    Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/addons-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-delete-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: Learn about building, deploying and managing your apps on Heroku.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
-  humanURL: http://heroku.com
-  baseURL: https://api.heroku.com//
-  tags: AddOns
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://here.api.gallery.streamdata.io

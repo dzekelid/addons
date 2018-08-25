@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerd
 x-kinRank: "8"
 x-alexaRank: "18918"
 tags: AddOns
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
+- name: PagerDuty - List installed add-ons
+  x-api-slug: addons-get
+  description: List all of the add-ons installed on your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
   baseURL: https:///
@@ -25,89 +25,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
-    Relative Data, Service API, Relative StreamRank, Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
-    Relative Data, Service API, Relative StreamRank, Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-get-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
-    Relative Data, Service API, Relative StreamRank, Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-delete-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
-    Relative Data, Service API, Relative StreamRank, Streams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addons-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/addonsid-put-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: See how PagerDuty Digital Operations Management Platform integrates
-    machine data & human intelligence to improve visibility & agility across organizations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: AddOns
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/pagerduty/openapi.md
 x-common:
 - type: x-website
   url: http://www.pagerduty.com/

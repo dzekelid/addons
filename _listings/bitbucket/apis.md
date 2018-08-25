@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: AddOns
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Delete Add On
+  x-api-slug: addon-delete
+  description: Delete addon
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -25,416 +25,191 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On
+  x-api-slug: addon-parameters
+  description: Parameters addon
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Update Add On
+  x-api-slug: addon-put
+  description: Put addon
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers
+  x-api-slug: addonlinkers-get
+  description: Get addon linkers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers
+  x-api-slug: addonlinkers-parameters
+  description: Parameters addon linkers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers Linker Key
+  x-api-slug: addonlinkerslinker-key-get
+  description: Get addon linkers linker key
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers Linker Key
+  x-api-slug: addonlinkerslinker-key-parameters
+  description: Parameters addon linkers linker key
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Delete Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-delete
+  description: Delete addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-get
+  description: Get addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-parameters
+  description: Parameters addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Add Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-post
+  description: Post addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Update Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-put
+  description: Put addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
     Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Delete Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-delete
+  description: Delete addon linkers linker key values
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
+- name: Bitbucket - Get Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-get
+  description: Get addon linkers linker key values
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
+- name: Bitbucket - Parameters Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-parameters
+  description: Parameters addon linkers linker key values
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
+- name: Bitbucket - Delete Add On
+  x-api-slug: addon-delete
+  description: Delete addon
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -445,55 +220,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On
+  x-api-slug: addon-parameters
+  description: Parameters addon
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -501,60 +230,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Update Add On
+  x-api-slug: addon-put
+  description: Put addon
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -562,62 +243,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers
+  x-api-slug: addonlinkers-get
+  description: Get addon linkers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -625,64 +256,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers
+  x-api-slug: addonlinkers-parameters
+  description: Parameters addon linkers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -690,66 +269,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers Linker Key
+  x-api-slug: addonlinkerslinker-key-get
+  description: Get addon linkers linker key
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -757,68 +282,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers Linker Key
+  x-api-slug: addonlinkerslinker-key-parameters
+  description: Parameters addon linkers linker key
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -826,70 +295,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Delete Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-delete
+  description: Delete addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -897,72 +308,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-get
+  description: Get addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -970,74 +321,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-parameters
+  description: Parameters addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -1045,76 +334,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Add Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-post
+  description: Post addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -1122,78 +347,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Update Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-put
+  description: Put addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -1201,80 +360,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Delete Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-delete
+  description: Delete addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -1282,82 +373,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Get Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-get
+  description: Get addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -1365,84 +386,12 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
+- name: Bitbucket - Parameters Add On Linkers Linker Key Values
+  x-api-slug: addonlinkerslinker-keyvalues-parameters
+  description: Parameters addon linkers linker key values
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
@@ -1450,367 +399,9 @@ apis:
     Relative Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
-    Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
-    Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: code-against-the-bitbucket-api-to-automate-simple-tasks-embed-bitbucket-data-into-your-own-site-build-mobile-or-desktop-apps-or-even-add-custom-ui-addons-into-bitbucket-itself-using-the-connect-framework-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
-    Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addon-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkers-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-key-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/addonlinkerslinker-keyvalues-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: AddOns
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/bitbucket/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bigoven.api.gallery.streamdata.io
