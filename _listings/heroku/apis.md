@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku
 x-kinRank: "8"
 x-alexaRank: "6044"
 tags: AddOns
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
 apis:
@@ -76,6 +76,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddons-get-openapi.md
+- name: Heroku - Parameters Applications Addons
+  x-api-slug: appsappaddonsaddon-parameters
+  description: Parameters applications addons.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-parameters-openapi.md
 - name: Heroku - Add Application Addons
   x-api-slug: appsappaddonsaddon-post
   description: Install an addon to an app.
@@ -108,6 +122,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-put-openapi.md
+- name: Heroku - Delete Applications Addons
+  x-api-slug: appsappaddonsaddon-delete
+  description: Uninstall an addon from an app.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addons/master/_listings/heroku/appsappaddonsaddon-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://here.api.gallery.streamdata.io

@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Bitbucket Get Add On Linkers Linker Key Values",
-    "_postman_id": "2a9444e9-7d9a-45ec-bc0f-775af4145914",
+    "_postman_id": "d5fe9fbe-a1cf-4192-9434-56532c514e1f",
     "description": "Get addon linkers linker key values",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Addon",
       "item": [
         {
-          "id": "fe322740-c27d-4e5f-8139-7543588eeac5",
+          "id": "43b4ffe2-35e1-4550-b4dd-090ed18c1634",
           "name": "getAddonLinkersLinkerKeyValues",
           "request": {
             "url": {
@@ -18,7 +18,7 @@
               "host": "api.bitbucket.org",
               "path": [
                 "2.0",
-                "addon/linkers/:linker_key/values/"
+                "addon/linkers/:linker_key/values"
               ],
               "variable": [
                 {
@@ -39,12 +39,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "33d90111-486c-472d-8247-daf609460473"
+              "id": "b1fd3647-dd24-46f6-949b-e4b29213affe"
             }
           ]
         },
         {
-          "id": "d7b37ba8-cd27-4d65-8587-4557469b079f",
+          "id": "c56f70fc-9287-4654-96a4-7a5843c03d8e",
           "name": "deleteAddonLinkersLinkerKeyValues",
           "request": {
             "url": {
@@ -52,7 +52,7 @@
               "host": "api.bitbucket.org",
               "path": [
                 "2.0",
-                "addon/linkers/:linker_key/values/"
+                "addon/linkers/:linker_key/values"
               ],
               "variable": [
                 {
@@ -73,7 +73,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "46671851-c090-4d2e-aca2-1a09ace0e36a"
+              "id": "3a470bd3-bf99-41cf-878b-33700afe1738"
             }
           ]
         }
